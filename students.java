@@ -1,6 +1,7 @@
 public class students {
     private String name;
     private int rollNo;
+    private static int studentCount = 0;
 
     // set name
     public void setName(String name) {
@@ -27,15 +28,18 @@ public class students {
     public students() {
         name = "not set";
         rollNo = 100;
+        studentCount +=1;
     }
     public students(String name, int rollNo) {
         setName(name);
         setRollNo(rollNo);
+        studentCount +=1;
     }
     // copy constructor s pass by refference
     public students(students s ) {
         name = s.name;
         rollNo = s.rollNo;
+        studentCount +=1;
     }
 
     public void print() {
