@@ -2,14 +2,13 @@ import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
 
-
 public class ActionEventTest implements ActionListener {
     JFrame frame;
     JButton bHello;
 
     public void initGUI() {
         frame = new JFrame();
-        // Event Generator 
+        // Event Generator
         bHello = new JButton("Hello");
 
         Container con = frame.getContentPane();
