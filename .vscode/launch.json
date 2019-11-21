@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - EventsEx",
+            "request": "launch",
+            "mainClass": "EventsEx",
+            "projectName": "Coding_4995882a"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - EventEx",
             "request": "launch",
             "mainClass": "EventEx",
